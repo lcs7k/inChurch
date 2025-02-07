@@ -1,27 +1,63 @@
-# InChurchTest
+# 📌 Instruções para Entrega
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+## 📂 Clone do Repositório
+Clone este repositório para iniciar o desenvolvimento:
 
-## Development server
+```bash
+git clone <link-do-repositorio>
+cd desafio-frontend-angular
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📦 Instalação de Dependências
+Instale as dependências necessárias do projeto:
 
-## Code scaffolding
+```bash
+npm install
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Iniciar a API Fake e a Aplicação
+A API fake e a aplicação Angular são iniciadas simultaneamente com `concurrently`. Basta rodar:
 
-## Build
+```bash
+npm start
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- O **JSON Server** rodará em: `http://localhost:3000`
+- A **aplicação Angular** rodará em: `http://localhost:4200`
 
-## Running unit tests
+## 🔑 Credenciais de Acesso
+Para autenticação, utilize um dos logins cadastrados no `db.json`, na seção `users`. Exemplo:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```json
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Lucas",
+      "email": "Lucas@email.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "name": "Weverton",
+      "email": "Weverton@email.com",
+      "password": "654321"
+    },
+    {
+      "id": 3,
+      "name": "Larissa",
+      "email": "Larissa@email.com",
+      "password": "abcdef"
+    }
+  ]
+}
+```
 
-## Running end-to-end tests
+## 📱 Teste de Responsividade
+Verifique o comportamento responsivo da aplicação em diferentes dispositivos e tamanhos de tela.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+

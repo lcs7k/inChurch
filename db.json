@@ -1,0 +1,96 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "O significado dos principais nomes da bíblia",
+      "content": "31 leituras",
+      "imageUrl": "https://media.istockphoto.com/id/2098784034/pt/foto/woman-with-closed-eyes-putting-hands-on-her-chest.jpg?s=2048x2048&w=is&k=20&c=Ihk-XxfVDPZk72zlxzxqgZ-zBf4Py0CdjU6y98TvPJc=",
+      "audience": "Igreja local: Yeshua",
+      "readers": 1220,
+      "dateEvent": "2025-04-02 19:00"
+    },
+    {
+      "id": "2",
+      "title": "Versículos bíblicos para combater a ansiedade",
+      "content": "28 leituras",
+      "imageUrl": "https://media.istockphoto.com/id/1187582535/pt/foto/i-need-some-divine-help-here.jpg?s=2048x2048&w=is&k=20&c=9gNjDiDH_d8i4fhQLl7RkVfN4_KLpWV-amQWUiz8LiU=",
+      "audience": "Denominação",
+      "readers": 15,
+      "dateEvent": "2025-04-02 19:00"
+    },
+    {
+      "id": "3",
+      "title": "Como ouvir a voz de Deus?",
+      "content": "05 leituras",
+      "imageUrl": "https://cdn.pixabay.com/photo/2015/08/14/16/30/man-888591_1280.jpg",
+      "audience": "Igreja local: Yeshua",
+      "readers": "-",
+      "dateEvent": "2025-04-02 19:00"
+    },
+    {
+      "id": "4",
+      "title": "As acusações levantadas contra Jesus",
+      "content": "15 leituras",
+      "imageUrl": "https://media.istockphoto.com/id/2098784034/pt/foto/woman-with-closed-eyes-putting-hands-on-her-chest.jpg?s=2048x2048&w=is&k=20&c=Ihk-XxfVDPZk72zlxzxqgZ-zBf4Py0CdjU6y98TvPJc=",
+      "audience": "Denominação",
+      "readers": 345,
+      "dateEvent": "2025-04-02 19:00"
+    },
+    {
+      "id": "5",
+      "title": "Genesis, tudo que você não sabia!",
+      "content": "03 leituras",
+      "imageUrl": "https://cdn.pixabay.com/photo/2018/05/31/06/45/religion-3443282_1280.jpg",
+      "audience": "Igreja local: Yeshua",
+      "readers": "-",
+      "dateEvent": "2025-04-02 19:00"
+    },
+    {
+      "id": "6",
+      "title": "Jesus é lindo e perfeito no nosso dia a dia",
+      "content": "365 leituras",
+      "imageUrl": "https://cdn.pixabay.com/photo/2018/06/04/07/00/hand-3452582_1280.jpg",
+      "audience": "Denominação",
+      "readers": 78,
+      "dateEvent": "2025-04-02 19:00"
+    },
+    {
+      "id": "7",
+      "title": "Jesus é lindo e perfeito no nosso dia a dia",
+      "content": "365 leituras",
+      "imageUrl": "https://cdn.pixabay.com/photo/2018/06/04/07/00/hand-3452582_1280.jpg",
+      "audience": "Denominação",
+      "readers": 78,
+      "dateEvent": "2025-04-02 19:00"
+    },
+    {
+      "id": "8",
+      "title": "Jesus é lindo e perfeito no nosso dia a dia",
+      "content": "365 leituras",
+      "imageUrl": "https://cdn.pixabay.com/photo/2018/06/04/07/00/hand-3452582_1280.jpg",
+      "audience": "Denominação",
+      "readers": 78,
+      "dateEvent": "2025-04-0 19:002"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Lucas",
+      "email": "Lucas@email.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "name": "Weverton",
+      "email": "Weverton@email.com",
+      "password": "654321"
+    },
+    {
+      "id": 3,
+      "name": "Larissa",
+      "email": "Larissa@email.com",
+      "password": "abcdef"
+    }
+  ]
+}
