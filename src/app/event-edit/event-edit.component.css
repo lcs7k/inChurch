@@ -1,18 +1,18 @@
-.save-button{
+.save-button {
     background: #91c329;
     color: #fff;
 }
 
-.container-background{
+.container-background {
     padding: 2rem;
     background: #fff;
     border-radius: 8px;
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
 
-    .container-background{
+    .container-background {
         width: 90%;
     }
-    
+
 }

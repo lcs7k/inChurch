@@ -246,6 +246,7 @@ body {
 }
 
 @media (max-width: 768px) {
+
   .col-cards,
   .col-table {
     max-width: 45%;
@@ -253,6 +254,7 @@ body {
 }
 
 @media (max-width: 576px) {
+
   .col-cards,
   .col-table {
     max-width: 100%;

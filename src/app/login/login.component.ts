@@ -1,5 +1,5 @@
 import { Component, DestroyRef, inject } from '@angular/core';
-import { FormGroup, FormControl, ReactiveFormsModule, Validators } from '@angular/forms';
+import { FormGroup, FormControl, ReactiveFormsModule } from '@angular/forms';
 import { LoginService } from './login.service';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
@@ -31,7 +31,7 @@ export class LoginComponent {
     }
 
     const { email, password } = this.loginForm.value;
-    
+
     this._loginService.login(email!, password!).pipe(takeUntilDestroyed(this._destroyRef)).subscribe(success => {
       if (success) {
         this._router.navigate(['/']);

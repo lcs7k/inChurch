@@ -4,8 +4,8 @@
 Clone este repositório para iniciar o desenvolvimento:
 
 ```bash
-git clone <link-do-repositorio>
-cd desafio-frontend-angular
+git clone <https://github.com/lcs7k/inChurch.git>
+cd inChurch
 ```
 
 ## 📦 Instalação de Dependências

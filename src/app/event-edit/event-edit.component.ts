@@ -26,12 +26,11 @@ export class EventEditComponent {
     dateEvent: new FormControl('', [Validators.required])
   });
 
-   private _destroyRef = inject(DestroyRef);
+  private _destroyRef = inject(DestroyRef);
   private _eventEditService = inject(EventEditService);
   private _router = inject(Router);
 
   ngOnInit() {
-
     this.getEventById();
   }
 
@@ -43,9 +42,7 @@ export class EventEditComponent {
 
   getEventById() {
     this._eventEditService.getEventById(this.id).subscribe(data => {
-      console.log(data)
       this.eventForm.patchValue(data)
-      // this.events.set(id);
     });
   }
 
